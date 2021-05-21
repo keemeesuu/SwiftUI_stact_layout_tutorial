@@ -14,6 +14,7 @@
 		D2FB957B265780B5009F17D4 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB957A265780B5009F17D4 /* MyProjectCard.swift */; };
 		D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB957E265785ED009F17D4 /* MyBasicCard.swift */; };
 		D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB958226578D5A009F17D4 /* MyCard.swift */; };
+		D2FB95872657E5F9009F17D4 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB95862657E5F9009F17D4 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D2FB957A265780B5009F17D4 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		D2FB957E265785ED009F17D4 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		D2FB958226578D5A009F17D4 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		D2FB95862657E5F9009F17D4 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		D2FB958A2657E97D009F17D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +66,11 @@
 				D2FB957A265780B5009F17D4 /* MyProjectCard.swift */,
 				D2FB957E265785ED009F17D4 /* MyBasicCard.swift */,
 				D2FB958226578D5A009F17D4 /* MyCard.swift */,
+				D2FB95862657E5F9009F17D4 /* MyList.swift */,
 				D2FB956E2657807C009F17D4 /* Assets.xcassets */,
 				D2FB95732657807C009F17D4 /* Info.plist */,
 				D2FB95702657807C009F17D4 /* Preview Content */,
+				D2FB958A2657E97D009F17D4 /* README.md */,
 			);
 			path = SwiftUI_stact_layout_tutorial;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */,
 				D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */,
 				D2FB956B26578079009F17D4 /* SwiftUI_stact_layout_tutorialApp.swift in Sources */,
+				D2FB95872657E5F9009F17D4 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
