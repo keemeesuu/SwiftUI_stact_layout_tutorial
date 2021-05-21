@@ -11,6 +11,9 @@
 		D2FB956D26578079009F17D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB956C26578079009F17D4 /* ContentView.swift */; };
 		D2FB956F2657807C009F17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FB956E2657807C009F17D4 /* Assets.xcassets */; };
 		D2FB95722657807C009F17D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FB95712657807C009F17D4 /* Preview Assets.xcassets */; };
+		D2FB957B265780B5009F17D4 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB957A265780B5009F17D4 /* MyProjectCard.swift */; };
+		D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB957E265785ED009F17D4 /* MyBasicCard.swift */; };
+		D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB958226578D5A009F17D4 /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		D2FB956E2657807C009F17D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2FB95712657807C009F17D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2FB95732657807C009F17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FB957A265780B5009F17D4 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		D2FB957E265785ED009F17D4 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		D2FB958226578D5A009F17D4 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				D2FB956A26578079009F17D4 /* SwiftUI_stact_layout_tutorialApp.swift */,
 				D2FB956C26578079009F17D4 /* ContentView.swift */,
+				D2FB957A265780B5009F17D4 /* MyProjectCard.swift */,
+				D2FB957E265785ED009F17D4 /* MyBasicCard.swift */,
+				D2FB958226578D5A009F17D4 /* MyCard.swift */,
 				D2FB956E2657807C009F17D4 /* Assets.xcassets */,
 				D2FB95732657807C009F17D4 /* Info.plist */,
 				D2FB95702657807C009F17D4 /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FB957B265780B5009F17D4 /* MyProjectCard.swift in Sources */,
 				D2FB956D26578079009F17D4 /* ContentView.swift in Sources */,
+				D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */,
+				D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */,
 				D2FB956B26578079009F17D4 /* SwiftUI_stact_layout_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
