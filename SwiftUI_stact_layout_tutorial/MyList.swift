@@ -9,8 +9,9 @@ import SwiftUI
 
 struct MyList: View {
     
+    @Binding var isNavigationBarHidden: Bool
 
-    init() {
+    init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
         
         // List 라인 없애기(근데 안없어지는데 이유를 모르겠음
         if #available(iOS 14.0, *){
@@ -21,6 +22,8 @@ struct MyList: View {
         
         UITableView.appearance().separatorStyle = .none
         // List 라인 없애기(근데 안없어지는데 이유를 모르겠음 (끝)
+        
+        _isNavigationBarHidden = isNavigationBarHidden
         
     }
     
@@ -88,8 +91,13 @@ struct MyList: View {
         } // List
         .listStyle(GroupedListStyle())
         .navigationBarTitle("내 목록")
+//        .navigationBarHidden(self.isNavigationBarHidden)
+        .onAppear{
+            self.isNavigationBarHidden = false
+        }
         
-    }
+        
+    } // NavigationView
 }
 
 struct MyList_Previews: PreviewProvider {

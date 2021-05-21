@@ -22,7 +22,7 @@ struct ContentView: View {
                     
                     HStack{
                         
-                        NavigationLink(destination: MyList()){
+                        NavigationLink(destination: MyList(isNavigationBarHidden: self.$isNavigationBarHidden)){
                             Image(systemName: "line.horizontal.3")
                                 .font(.largeTitle)
                                 .foregroundColor(.black)
@@ -67,8 +67,11 @@ struct ContentView: View {
                 
             } // ZStack
             
-            .navigationTitle("메인")
-            .navigationBarHidde(self.isNavigationBarHidden)
+            .navigationTitle("뒤로가기")
+            .navigationBarHidden(self.isNavigationBarHidden)
+            .onAppear{
+                self.isNavigationBarHidden = true
+            }
             
         } // NavigationView
         
