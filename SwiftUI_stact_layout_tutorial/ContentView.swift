@@ -11,7 +11,7 @@ struct ContentView: View {
     
     // ## 네이게이션바 타이틀 공간을 없애기 위한 ##
     // isNavigationBarHidden 변수 선언
-    @State var isNavigationBarHidden : Bool = false
+    @State var isNavigationBarHidden: Bool = false
     
     var body: some View {
         
@@ -22,15 +22,23 @@ struct ContentView: View {
                     
                     HStack{
                         
-                        NavigationLink(destination: MyList(isNavigationBarHidden: self.$isNavigationBarHidden)){
+                        NavigationLink(destination:
+                            MyList(isNavigationBarHidden: self.$isNavigationBarHidden)
+                        ){
                             Image(systemName: "line.horizontal.3")
                                 .font(.largeTitle)
                                 .foregroundColor(.black)
                         }
                         
                         Spacer()
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        
+                        NavigationLink(destination:
+                            MyProfileView(isNavigationBarHidden: self.$isNavigationBarHidden)
+                        ){
+                            Image(systemName: "person.crop.circle.fill")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                        }
                     }
                     .padding(.top, 20)
                     .padding(.bottom, 10)

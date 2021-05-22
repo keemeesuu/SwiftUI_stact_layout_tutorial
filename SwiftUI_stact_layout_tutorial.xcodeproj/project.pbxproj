@@ -15,6 +15,9 @@
 		D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB957E265785ED009F17D4 /* MyBasicCard.swift */; };
 		D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB958226578D5A009F17D4 /* MyCard.swift */; };
 		D2FB95872657E5F9009F17D4 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB95862657E5F9009F17D4 /* MyList.swift */; };
+		D2FB958D2658ADAE009F17D4 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB958C2658ADAE009F17D4 /* MyNavigationView.swift */; };
+		D2FB95912658B9C4009F17D4 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB95902658B9C4009F17D4 /* MyProfileView.swift */; };
+		D2FB95952658C62B009F17D4 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB95942658C62B009F17D4 /* MyCircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		D2FB958226578D5A009F17D4 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		D2FB95862657E5F9009F17D4 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		D2FB958A2657E97D009F17D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D2FB958C2658ADAE009F17D4 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		D2FB95902658B9C4009F17D4 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		D2FB95942658C62B009F17D4 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +70,12 @@
 				D2FB956A26578079009F17D4 /* SwiftUI_stact_layout_tutorialApp.swift */,
 				D2FB956C26578079009F17D4 /* ContentView.swift */,
 				D2FB957A265780B5009F17D4 /* MyProjectCard.swift */,
+				D2FB95902658B9C4009F17D4 /* MyProfileView.swift */,
+				D2FB95942658C62B009F17D4 /* MyCircleImageView.swift */,
 				D2FB957E265785ED009F17D4 /* MyBasicCard.swift */,
 				D2FB958226578D5A009F17D4 /* MyCard.swift */,
 				D2FB95862657E5F9009F17D4 /* MyList.swift */,
+				D2FB958C2658ADAE009F17D4 /* MyNavigationView.swift */,
 				D2FB956E2657807C009F17D4 /* Assets.xcassets */,
 				D2FB95732657807C009F17D4 /* Info.plist */,
 				D2FB95702657807C009F17D4 /* Preview Content */,
@@ -152,12 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FB95952658C62B009F17D4 /* MyCircleImageView.swift in Sources */,
+				D2FB95912658B9C4009F17D4 /* MyProfileView.swift in Sources */,
 				D2FB957B265780B5009F17D4 /* MyProjectCard.swift in Sources */,
 				D2FB956D26578079009F17D4 /* ContentView.swift in Sources */,
 				D2FB957F265785ED009F17D4 /* MyBasicCard.swift in Sources */,
 				D2FB958326578D5A009F17D4 /* MyCard.swift in Sources */,
 				D2FB956B26578079009F17D4 /* SwiftUI_stact_layout_tutorialApp.swift in Sources */,
 				D2FB95872657E5F9009F17D4 /* MyList.swift in Sources */,
+				D2FB958D2658ADAE009F17D4 /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
